@@ -71,7 +71,7 @@ function Note(props) {
               labelId="demo-simple-select-label"
               id="demo-simple-select"
               value={bucketName}
-              label="Age"
+              label="Bucket"
               onChange={handleChange}
             >
               {props.bucket.map((item, index) => (
